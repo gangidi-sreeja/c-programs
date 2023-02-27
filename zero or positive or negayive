@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    double number;
+    scanf("%lf", &number); 
+      printf("The number is 0.");
+      printf("Negative number.");
+      printf("Positive number.");  
+if(number==0)
+  printf("Zer0");
+else if(number<0)
+  printf("Negative number.");
+else
+  printf("Positive number.");
+return 0;
+}
