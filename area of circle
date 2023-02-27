@@ -2,9 +2,9 @@
 #define PI 3.14
 void main()
 {
-    int radius;
+    int r;
     float area;
-    scanf("%d", &radius);
-    area=3.14*radius*radius;
+    scanf("%d", &r);
+    area=3.14*r*r;
     printf("Area of a circle = %.2f\n",area);
 }
