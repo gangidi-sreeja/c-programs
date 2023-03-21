@@ -1,0 +1,20 @@
+#include<stdio.h>
+int HCF(int, int); //You have to write this function which calculates the HCF. 
+	 
+int main()
+{
+   int a, b, result;
+   scanf("%d %d %d %d", &a, &b, &c, &d); /* Takes 4 number as input from the test data */
+   result = HCF(HCF(a, b), HCF(c,d));
+   printf("The HCF is %d", result);
+}
+int HCFf(int a,int b) 
+          { 
+               if(a%b==0) 
+                { 
+                       return b; 
+                } 
+               else 
+               { 
+                       return(HCFf(b,a%b)); 
+               } 
