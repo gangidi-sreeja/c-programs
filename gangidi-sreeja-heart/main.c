@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 
 int main()
@@ -21,15 +13,15 @@ int main()
         {
             printf(" ");
         }
-        for(j=x-i-1;j<x+i+1;j++)
+        for(j=x-i-1;j<=x+i+1;j++)
         {
             printf("*");
         }
-        for(m=x+i;m<a+x-i;m++)
+        for(m=2*x-i;m>x+i;m--)
         {
             printf(" ");
         }
-        for(y=n+2-i;y<b+i+3;y++)
+        for(y=n+2-i;y<=b+i+3;y++)
         {
             printf("*");
         }
@@ -41,7 +33,7 @@ int main()
         {
             printf(" ");
         }
-        for(j=i;j<2*n-i-1;j++)
+        for(j=i-1;j<2*n-i-1;j++)
         {
             printf("*");
         }
