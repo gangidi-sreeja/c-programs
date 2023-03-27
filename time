@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int n,p,q;
+    scanf("%d",&n);
+    p=n/60;
+    q=n%60;
+    printf("time is %d:%d",p,q);
+    return 0;
+}
+
