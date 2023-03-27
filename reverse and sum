@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n,p,r,s,q;
+    scanf("%d",&n);
+    q=n;
+   while(n>0)
+  
+  {
+  p=n%10;
+   r=(r*10)+p;
+  n=n/10;
+  }
+   printf("%d\n",r);
+    s=q+r;
+    printf("%d\n",s);
+    return 0;
+}
